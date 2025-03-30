@@ -56,7 +56,7 @@ function App() {
     console.log('User not authenticated, showing login options.');
     return (
       <main>
-        <h1>Welcome to Event Management</h1>
+        <h1>Welcome to Proof of presence Dapp</h1>
         <p>Please select your role:</p>
         <button onClick={() => handleLogin('admin')}>Login as Admin</button>
         <button onClick={() => handleLogin('attendee')}>Login as Attendee</button>
@@ -87,7 +87,7 @@ function App() {
   console.log('No role selected, showing fallback UI.');
   return (
     <main>
-      <h1>Welcome to Event Management</h1>
+      <h1>WeWelcome to Proof of presence Dapp</h1>
       <p>Something went wrong. Please select your role again:</p>
       <button onClick={() => handleLogin('admin')}>Login as Admin</button>
       <button onClick={() => handleLogin('attendee')}>Login as Attendee</button>
